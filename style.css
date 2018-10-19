@@ -1,0 +1,386 @@
+body {
+    /*    align-content: center;*/
+    background-color: white;
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
+    /*    height: 800px;*/
+    margin: 0 auto;
+    text-align: justify;
+    /*    width: 1000px;*/
+    max-width: 1800px;
+    min-width: 1000px;
+}
+
+header {
+    background-image: imageurl("img/logo.jpeg");
+    /*background-image: url( "white.png");*/
+    /*    background-position: center top;*/
+    /*    background-size: 100% 100%;*/
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
+    height: 100px;
+    width: 100%;
+    float: right;
+    
+}
+
+
+
+h1 {
+
+    color: black;
+    font-family: sans-serif;
+    font-size: 9em;
+    margin-top: 7px;
+    text-align: right;
+    font-weight: 500;
+    
+    
+    /*
+    color: white;
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
+    font-size: 2.5em;
+    padding: 150px 119px 26px 83px;
+    text-align: center;
+*/
+}
+
+h2 {
+    color: black;
+    font-family: sans-serif;
+    font-size: 5em;
+    margin-top: 10px;
+    text-align: center;
+}
+
+h5 {  
+    color: #9CB6CE;
+   font-family: 'Hind Vadodara', sans-serif;
+   text-transform: uppercase;
+    font-size: 2em;
+    padding-top:70px;
+    margin-top: 7px;
+    text-align: left;   
+}
+h6 {
+ color: black;
+   font-family: 'Hind Vadodara', sans-serif;
+   text-transform: uppercase;
+    font-size: 3em;
+    margin-top: 7px;
+    text-align: right; 
+   color: #9CB6CE;
+    
+   
+    opacity: 30%;
+}
+.wrapper {
+    overflow: scroll;
+}
+.backgroudwrap { 
+  position: fixed;
+  z-index: -1000;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  top: 0;
+  bottom: 0;
+      background-size: cover;
+     } 
+ #video-bg-elm {
+  position:absolute;
+   top: 0;
+   bottom: 0;
+    min-height: 100%;
+  min-width: 100%;
+    background-size: cover;
+    
+     }
+
+nav {
+    background-color: #ccc;
+    float: left;
+    /*    margin-bottom: -9999px;*/
+    /*    margin-top: 450px;*/
+
+    /*    padding-bottom: 9999px;*/
+    width: 200px;
+}
+
+/* nav ul {
+    list-style-type: none;
+    margin-top: 9px;
+    text-align: center;
+
+}
+
+nav li {
+    padding: 10px;
+    display: inline-block;
+
+}
+
+.main-nav li a:link {
+    text-decoration: none; */
+
+nav ul {
+    background-color: #f1f1f1;
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 300px;
+}
+
+li a {
+    color: #000;
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: lightblue;
+    color: white;
+}
+
+main {
+    background-color: #fff;
+    min-height: 550px;
+    text-align: center;
+    width: 1200px;
+}
+
+figure {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+figure img {
+    height: auto;
+    margin: 30px;
+    width: 85%;
+
+}
+
+figcaption {
+    text-align: center;
+    float: right;
+    margin-left: 900px;
+   
+}
+
+.last-caption {
+    padding-bottom: 25px;
+}
+
+footer {
+    background-color: whitesmoke;
+    clear: both;
+    /*    margin-bottom: -20000px;*/
+    min-height: 50px;
+}
+
+.homeimg1 {
+  display: block;
+    margin-left: 250px;
+    margin-right: 0;
+    margin-top: -1100px;
+    width: 90%;
+    padding-bottom: 50px; 
+   
+    opacity: 1;
+    transition: 0.5s ease;
+    height: auto;  
+    
+}
+    
+.homeimg {
+    display: block;
+    margin-left: 250px;
+    margin-right: 0;
+    margin-top: auto;
+    width: 90%;
+    padding-bottom: 50px; 
+  
+    opacity: 1;
+    transition: 0.5s ease;
+    height: auto;
+}
+
+.homeimg2 {
+    display: block;
+    margin-left: 500px;
+    margin-right: 0;
+    margin-top: auto;
+    width: 90%;
+    padding-bottom: 50px; 
+    padding-top: 20px;
+    opacity: 10;
+    transition: 0.5s ease;
+    height: auto;  
+    float: right;
+    
+    
+}
+.homeimg3 {
+    display: block;
+    margin-left: 20px;
+    margin-right: 0;
+    margin-top: auto;
+    width: 90%;
+    padding-bottom: 50px; 
+    padding-top: 20px;
+    opacity: 10;
+    transition: 0.5s ease;
+    height: auto;  
+    float: left;
+}
+
+.homeimg4{
+    display: block;
+    margin-left: 90px;
+    margin-right: 0;
+    margin-top: auto;
+    width: 90%;
+    padding-bottom: 50px; 
+    padding-top: 20px;
+    opacity: 10;
+    transition: 0.5s ease;
+    height: auto;  
+    float: center; 
+    
+    
+}
+
+.homeimg5 {
+   margin-left: 10px;
+    
+}
+
+
+h2 {
+    float: left;
+    padding-left: -1010px;
+    font-size: 3em;
+    padding: 5px;
+}
+
+h3 {
+    float: left;
+    padding-left: -1010px;
+    font-size: 1em;
+}
+.bodyfont{
+    font-family: serif;
+    font-size: 10em;
+}
+
+
+.button {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 40px 70px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 200px 600px;
+  cursor: pointer;
+  font-family: sans-serif;
+    font-size: 2em;
+  border-radius: 16px;
+}
+    
+    
+
+
+img {
+    display: block;
+    margin-left: 400px;
+    margin-right: 0;
+    margin-top: auto;
+    width: 60%;
+    padding-bottom: 10px;
+}
+#contact {
+*
+    box-sizing: border-box;
+}
+
+/* Style inputs */
+
+input[type=text], select, textarea {
+    width: 90%;
+    padding: 5px;
+    border: 1px solid #9CB6CE;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    resize: vertical;
+    
+}
+
+input[type=submit] {
+    background-color: #9CB6CE;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: lightblue;
+}
+
+/* Style the container/contact section */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    width: 500px;
+    margin-top: 10px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+/* Create two columns that float next to eachother */
+.column {
+    float: left;
+    width: 100%;
+    margin-top: 6px;
+    padding: 20px;
+}
+.column3
+{
+
+    float: right;
+    width: 100%;
+    margin-top: 6px;
+    padding: 20px;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: " ";
+    display: table;
+    clear: both;
+    float: clear;
+}
+
+
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+
+
+footer > p {
+    clear: both;
+    margin-bottom: -9999px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+
+
+}
